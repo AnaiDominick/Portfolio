@@ -1,0 +1,6 @@
+w x h
+
+Extra small 468 x 262
+small 728 x 408
+medium 940 x 527
+large 1170 x 656

@@ -279,7 +279,7 @@ hr {
 }
 
 .gray-bg {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 
 .bg-white {
@@ -316,8 +316,8 @@ hr {
 }
 
 .section {
-  padding-top: 160px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .section-heading h1,
@@ -576,19 +576,39 @@ hr {
   margin-bottom: 100px;
 }
 
+/* anai */
+#profilePic {
+  margin-top: 80px;
+}
+
 /* ---- Section Headings ---- */
 .sec-heading {
   margin-bottom: 100px;
   text-align: center;
 }
 
-.sec-heading .subheading {
+.subheading {
   display: block;
   text-transform: uppercase;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   color: #999;
   letter-spacing: 2.5px;
+}
+
+/* anai */
+.sec-heading h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+/* anai */
+.sec-heading p {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 16px;
+}
+
+#albums {
+  margin-top: 50px;
 }
 
 .sec-heading h1:first-child,
@@ -1326,10 +1346,16 @@ h5, .ft-boxed-hover ul li .hover-content .ft-heading, .ft-tabs .tabs-list li a .
 }
 
 h6, .progress-group .progress-title,
-.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-social-links ul li, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
+.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
 .blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
   font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+/* anai */
+.footer-social-links ul li {
+  font-size: 24px;
   letter-spacing: 2px;
 }
 
@@ -2092,8 +2118,10 @@ fieldset[disabled] .form-control:hover {
 /* --------------------------------------------------
 	7.0 Footers
 -------------------------------------------------- */
+
+/* anai */
 .copyright {
-  background: #222;
+  background: #98adae;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -2113,14 +2141,25 @@ fieldset[disabled] .form-control:hover {
   text-decoration: none;
 }
 
+/* anai */
 .copyright .to-the-top {
-  color: #777;
+  color: rgb(5, 5, 5);
+}
+
+/* anai */
+.copyright .pie-de-pagina {
+  color: rgb(5, 5, 5);
 }
 
 .copyright .to-the-top i {
   padding-left: 7px;
   font-size: 21px;
   vertical-align: top;
+}
+
+/* anai */
+#redes-sociales {
+  background: #ffb4b6;
 }
 
 .footer-social-links {
@@ -2148,7 +2187,7 @@ fieldset[disabled] .form-control:hover {
 
 .footer-social-links ul li a {
   display: block;
-  color: #ececec;
+  color: #070707;
 }
 
 .footer-social-links ul li a:hover {
@@ -2442,7 +2481,7 @@ fieldset[disabled] .form-control:hover {
   display: block;
   margin-bottom: 30px;
   padding: 7px 0 7px 20px;
-  border-left: 1px solid #777;
+  border-left: 1px solid rgb(24, 23, 23);
 }
 
 .footer-contact .contact-info address ul li .adr-heading {
@@ -4195,6 +4234,7 @@ fieldset[disabled] .form-control:hover {
 	10.0 Counters
 -------------------------------------------------- */
 /* ---- 10.1 Circle Counters ---- */
+/* anai */
 .circles-counters, .circles-counters-dark-bg {
   position: relative;
   background: #ccc url("../images/background2.jpg");
@@ -5762,6 +5802,12 @@ fieldset[disabled] .form-control:hover {
   margin: 15px;
 }
 
+/* anai */
+.fotoRegular {
+  width: 63.9%;
+  margin: 15px;
+}
+
 /* ---- 15.4 Single Column ---- */
 .portfolio-1col-fw .portfolio-item, .portfolio-1col-boxed .portfolio-item {
   position: relative;
@@ -5818,6 +5864,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 /* ---- 15.5 Portfoli Single - Project Page ---- */
+
 .pfolio-single .project-info, .pfolio-single .project-info-2 {
   margin-bottom: 75px;
 }
@@ -6302,8 +6349,18 @@ fieldset[disabled] .form-control:hover {
 	17.0 CTA - Call to Action
 -------------------------------------------------- */
 /* ---- 17.1 CTA - Link ---- */
+/* anai */
 .cta-link {
-  background: url(../../assets/images/shattered.gif) repeat;
+  background: url(../../assets/images/rosegold.jpg) top center no-repeat;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover; 
+}
+
+/* anai */
+.cta-link {
+  margin-top: 5%;
 }
 
 .cta-link .bg-overlay {
@@ -7938,12 +7995,17 @@ form .input-error-2:focus {
   text-align: center;
 }
 
-.fs-slide-1 .hero-content .hero-lead {
+.fs-slide-1 .hero-content {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 6em;
   font-weight: 800;
   letter-spacing: 5px;
   color: #ececec;
+}
+
+/* anai */
+.hero-lead {
+  font-family: 'Nunito', sans-serif;;
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
@@ -8920,8 +8982,13 @@ form .input-error-2:focus {
   color: #999;
 }
 
-.hover-default .p-hover:hover, .hover-light .p-hover:hover {
+.hover-light .p-hover:hover {
   opacity: 1;
+}
+
+/* anai */
+.hover-default .p-hover:hover {
+  opacity: .3;
 }
 
 .hover-default .p-hover:hover .p-content, .hover-light .p-hover:hover .p-content {

@@ -11,10 +11,14 @@
         <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
-        <!-- Fonts -->
+        <!-- Anai CSS -->
         <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
+        <!-- Fonts -->
         <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
         <!-- <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css"> -->
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Nunito|Sarabun|Shadows+Into+Light+Two" rel="stylesheet">
 
         <!-- Font Awesome version 5 -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -34,9 +38,14 @@
         <!-- Anai CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
 
+        <!-- Anai Bootstrap -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
         <!-- JS -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
+
     <body id="page-top" data-spy="scroll" data-target=".navbar">
         
         <!--[if lt IE 8]>
@@ -70,13 +79,11 @@
           <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
             <ul class="nav navbar-nav">
               <li><a href="#home">Home<span class="sr-only"></span></a></li>
-              <li><a href="#services">Services<span class="sr-only"></span></a></li>
               <li><a href="#about">About<span class="sr-only"></span></a></li>
               <li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
-              <li><a href="#testimonials">Testimonials<span class="sr-only"></span></a></li>
               <li><a href="#blog">Blog<span class="sr-only"></span></a></li>
               <li><a href="#contact">Contact<span class="sr-only"></span></a></li>
-              <li><a href="index.html">All Demos<span class="sr-only"></span></a></li>
+              <!-- <li><a href="index.html">All Demos<span class="sr-only"></span></a></li> -->
             </ul><!-- / .nav .navbar-nav -->              
           </div><!--/.navbar-collapse -->
         </nav><!-- / .navbar -->
@@ -92,7 +99,7 @@
             <div class="hero-content-wrapper">
               <div class="hero-content">
                 
-                <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Freelance Digital Designer</h4>
+                <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Freelance Digital Designer + Photography</h4>
                 <h1 class="hero-lead wow fadeInUp" data-wow-duration="1.5s">Anaí Dominick</h1>
                 <a href="pages/contact-3.html" class="btn btn-light btn-small wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Schedule Project</a>
 
@@ -109,58 +116,88 @@
         </div><!-- / .main-hero-2 -->
 
 
-        ========== Services ==========
-
-        <div class="gray-bg">
-          <section id="services" class="container ft-cards">
-            <div class="row section">
-
-              <header class="sec-heading">
-                <h2>What i do</h2>
-                <span class="subheading">Lorem ipsum dolor sit amet, consectetur</span>
-              </header>
-              
-              <!-- Item 1 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50">
-                <div class="ft-item wow fadeInUp" data-wow-duration="1s">
-                  <span class="linea-basic-pencil-ruler"></span>
-                  <h4>Pixel Perfect</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv</p>
-                  <a href="#">Learn more <span class="linea-arrows-slim-right"></span></a>
+        <!-- ========== Services ========== -->
+        <div id="sectionRosa">
+          <div class="gray-bg">
+            <section id="services" class="container ft-cards">
+              <div class="row section">
+        
+                <header class="sec-heading">
+                  <br>
+                  <h2>HELLO THERE</h2>
+                  <h1 class="subheading">♡</h1>
+                  <p>Thanks to stop by and check the world through my lens.</p>  
+                  <br>
+                  <div class="cta-wrapper">
+                      <button class="btn-ghost"><a href="pages/stories.html" class="removeURL"></a>Go to Stories</button>
+                  </div>
+                </header>
+        
+              </div><!-- / .row -->
+            </section>
+          </div><!-- / .gray-bg -->
+        
+        
+          <!-- ========== Carousel ========== -->
+          <div class="container" id="carrusel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+              <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+              </ol>
+        
+              <div class="carousel-inner">
+        
+                <div class="item active" id="slide1">
+                  <div class="carousel-caption">
+                    <!-- <h4>Slide 1</h4> -->
+                        <!-- <p>My biggest hobby has become to share all these photo-memories with you.</p> -->
+                  </div>
                 </div>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50">
-                <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                  <span class="linea-basic-cards-diamonds"></span>
-                  <h4>Multiple icon sets</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv</p>
-                  <a href="#">Learn more <span class="linea-arrows-slim-right"></span></a>
+        
+                <div class="item" id="slide2">
+                  <div class="carousel-caption">
+                    <!-- <h4>Slide 2</h4> -->
+                        <!-- <p>A truly romantic and a perfectionist, that's how I describe myself.</p> -->
+                  </div>
                 </div>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50">
-                <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                  <span class="linea-basic-star"></span>
-                  <h4>Lots of features</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv</p>
-                  <a href="#">Learn more <span class="linea-arrows-slim-right"></span></a>
+        
+                <div class="item" id="slide3">
+                  <div class="carousel-caption">
+                    <!-- <h4>Slide 3</h4> -->
+                        <!-- <p>Like a second nature of me...</p> -->
+                  </div>
                 </div>
+
+                <div class="item" id="slide4">
+                  <div class="carousel-caption">
+                    <!-- <h4>Slide 3</h4> -->
+                        <!-- <p>I'm driven by beauty hidden in details.</p> -->
+                  </div>
+                </div>
+
+                <!-- <div class="item" id="slide5">
+                  <div class="carousel-caption">
+                    <h4>Slide 3</h4>
+                        <p>Anywhere I go I see beauty.</p>
+                  </div>
+                </div> -->
+        
               </div>
-
-            </div><!-- / .row -->
-          </section>
-        </div><!-- / .gray-bg -->
-
-
-
-
+        
+              <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+              <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+            </div>
+        
+          </div>
+        
+        </div>
 
         <!-- ========== Cricle Counters - Parallax ========== -->
 
-        <div id="skillsCircles" class="circles-counters">
+        <div id="skillsCircles" class="circles-counters" id="circulos">
           <div class="container">
             <div id="counters" class="row count-wrapper">
               
@@ -201,7 +238,7 @@
             <div class="row section">
 
               <!-- Freelancer -->
-              <div class="col-lg-offset-2 col-lg-4 col-md-6 mb-sm-50 img-wrapper">
+              <div class="col-lg-offset-2 col-lg-4 col-md-6 mb-sm-50 img-wrapper" id="profilePic">
                 <div class="t-item">
 
                   <!-- Image -->
@@ -238,47 +275,10 @@
           </section><!-- / .container -->
         </div><!-- / .gray-bg -->
 
-
-
-        <!-- ========== Number Counters - Parallax ========== -->
-
-        <div class="number-counters">
-          <div class="container">
-            <div id="counters" class="row count-wrapper">
-              
-              <!-- Item 1 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                <span id="count-1" class="count-nbr">467</span>
-                <span class="count-text">Projects completed</span>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                <span id="count-2" class="count-nbr">2835</span>
-                <span class="count-text">Emails Send</span>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                <span id="count-3" class="count-nbr">46,930</span>
-                <span class="count-text">Pixels created</span>
-              </div>
-
-              <!-- Item 4 -->
-              <div class="col-md-3 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                <span id="count-4" class="count-nbr">102,890</span>
-                <span class="count-text">Happy clients</span>
-              </div>
-
-            </div><!-- / .row -->
-          </div><!-- / .container -->
-        </div><!-- / .number-counters -->
-
-        
-
+   
         <!-- ========== Portfolio ========== -->
 
-        <section id="portfolio" class="container-fluid portfolio-layout portfolio-columns-fw">
+        <section id="portfolio" id="portafolio" class="container-fluid portfolio-layout portfolio-columns-fw">
           <div class="row">
             <header class="sec-heading">
               <h2>Featured Projects</h2>
@@ -436,67 +436,16 @@
 
         <!-- ========== CTA - Contact Link ========== -->
 
-        <div class="cta-link">
+        <div class="cta-link" id="contact">
           <div class="bg-overlay">
             
             <div class="cta-wrapper">
-              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what we can do for you</h3>
+              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what I can do for you</h3>
               <a href="#contact" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">Get in touch</a>
             </div>
 
           </div>
         </div><!-- / .dark-bg .cta-link -->
-
-
-
-        <!-- ========== Testimonials ========== -->
-
-        <div id="testimonials" class="testimonials-parallax">
-          <div class="bg-overlay">
-            
-            <div class="t-wrapper t-slider">
-
-              <!-- Testimonial 1 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-
-              <!-- Testimonial 2 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-              
-              <!-- Testimonial 3 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-
-            </div><!-- / .t-wrapper -->
-          
-
-          </div><!-- / .bg-overlay -->
-        </div><!-- / .testimonials-parallax -->
 
 
 
@@ -507,7 +456,7 @@
             <div class="row">
               
               <header class="sec-heading">
-                <h2>Latest from my vlog</h2>
+                <h2>Latest from my Blog</h2>
                 <span class="subheading">Check out my vlog to see what I'm up to</span>
               </header>
 
@@ -524,11 +473,11 @@
                     <!-- Meta data -->
                     <div class="post-meta">
                       <a href="#" class="post-date">
-                        <i class="fa fa-calendar-o"></i>
+                        <i class="far fa-calendar"></i>
                         <span>February 26.2018</span>
                       </a>
                       <a href="#" class="post-comments">
-                        <i class="fa fa-comments-o"></i>
+                        <i class="far fa-comments"></i>
                         <span>12</span>
                       </a>
                     </div><!-- / .meta -->
@@ -560,11 +509,11 @@
                     <!-- Meta data -->
                     <div class="post-meta">
                       <a href="#" class="post-date">
-                        <i class="fa fa-calendar-o"></i>
+                        <i class="far fa-calendar"></i>
                         <span>September 20.2018</span>
                       </a>
                       <a href="#" class="post-comments">
-                        <i class="fa fa-comments-o"></i>
+                        <i class="far fa-comments"></i>
                         <span>12</span>
                       </a>
                     </div><!-- / .meta -->
@@ -596,11 +545,11 @@
                     <!-- Meta data -->
                     <div class="post-meta">
                       <a href="#" class="post-date">
-                        <i class="fa fa-calendar-o"></i>
+                        <i class="far fa-calendar"></i>
                         <span>November 22.2018</span>
                       </a>
                       <a href="#" class="post-comments">
-                        <i class="fa fa-comments-o"></i>
+                        <i class="far fa-comments"></i>
                         <span>12</span>
                       </a>
                     </div><!-- / .meta -->
@@ -626,68 +575,21 @@
 
 
 
-        <!-- ========== CTA - Newsletter Signup ========== -->
-
-        <div class="cta-newsletter">
-          <div class="bg-overlay">
-            <div class="cta-wrapper">
-
-              <h3 class="cta-lead h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Join my newsletter</h3>
-
-              <form class="mc-ajax mc-form subscribe-form" _lpchecked="1">
-
-                <!-- Email -->
-                <input type="email" name="EMAIL" placeholder="Your email address" id="mc-email" class="wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s" >
-                
-                <!-- Send Button -->
-                <input type="submit" name="subscribe" value="Join Me" class="btn btn-light btn-large wow fadeInUp mc-send-btn" data-wow-delay=".1s" data-wow-duration="1s">
-
-                <!-- Info (uncomment this for extra info) -->
-                <!-- <label for="mc-email" class="mc-info"></label> -->
-
-                <!-- Ajax message -->
-                <div class="subscribe-result"></div>
-                
-              </form>
-
-            </div><!-- / .cta-wrapper -->
-          </div><!-- / .bg-overlay -->
-        </div><!-- / .cta-newsletter -->
-
-
-
         <!-- ========== Footer Litle ========== -->
 
         <footer id="contact" class="footer-litle">
           <div class="gray-bg">
 
-            <!-- Contact Info -->
-            <address>
-              <ul>
-                <!-- Email -->
-                <li>
-                  <span class="linea-basic-paperplane adr-icon"></span>
-                  <div class="adr-group">
-                    <span class="adr-heading">Email</span>
-                    <span class="adr-info">anai.dominick@gmail.com</span>
-                  </div>
-                </li>
-
-              </ul>
-            </address>            
-          </div><!-- / .gray-bg -->
-
-
           <!-- Social Links -->
-          <div class="dark-bg">
+          <div class="dark-bg" id="redes-sociales">
             <div class="container footer-social-links">
               <div class="row">
                 
                 <ul>
-                  <li><a href="https://www.youtube.com/user/anai14" target="_blank">YouTube</a></li>
-                  <li><a href="https://twitter.com/AnaiDominick" target="_blank">Twitter</a></li>
-                  <li><a href="https://www.instagram.com/anai.dominick/" target="_blank">Instagram</a></li>
-                  <li><a href="https://www.linkedin.com/in/anai-gonzalez-a75a18b0/" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://www.youtube.com/user/anai14" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="https://twitter.com/AnaiDominick" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/anai.dominick/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/anai-gonzalez-a75a18b0/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
 
               </div>
@@ -700,7 +602,7 @@
             <div class="container">
               <div class="row">
                 
-                <div class="col-md-6">
+                <div class="col-md-6 pie-de-pagina">
                   <small>&copy; 2018 Made with tons of  <i class="fas fa-heart"></i>  by Anai Dominick</small>
                 </div>
 
@@ -730,7 +632,7 @@
         <script src="assets/js/vendor/jquery.parallax.js"></script>
         <script src="assets/js/vendor/slick.min.js"></script>
         <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
-        <script src="assets/js/vendor/countup.min.js"></script>
+        <!-- <script src="assets/js/vendor/countup.min.js"></script> -->
         <script src="assets/js/vendor/isotope.min.js"></script>
         <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/vendor/wow.min.js"></script>

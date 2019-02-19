@@ -1,0 +1,27 @@
+#miniImages {
+    margin-top: 50px;
+}
+
+.mini {
+    height: auto; 
+    width: auto; 
+    max-width: 166px; 
+    max-height: 111px;
+}
+
+#paddingCarousel {
+    padding-bottom: 3rem;
+}
+
+#storiesButton {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+#favStories {
+    margin-bottom: 0px;
+}
+
+.removeURL {
+    text-decoration: none;
+}

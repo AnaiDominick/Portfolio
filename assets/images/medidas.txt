@@ -1,0 +1,2 @@
+background2: 2440 x 1578
+shattered 864 x 324
